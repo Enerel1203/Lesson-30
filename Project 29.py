@@ -12,9 +12,7 @@ class Ferrari:
 
     def max_speed(self):
         return "340 km/h"
-
-
-# Polymorphism example
+        
 for car in (BMW(), Ferrari()):
     print(f"Car: {car.__class__.__name__}")
     print("Fuel Type:", car.fuel_type())
